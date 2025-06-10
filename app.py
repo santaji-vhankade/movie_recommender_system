@@ -28,7 +28,7 @@ selected_movie_name = st.selectbox(
 # -------------------------------
 def fetch_poster(movie_title):
     try:
-        api_key = 'ABCD'  # Replace with your actual API key
+        api_key = 'a04287cf'  # Replace with your actual API key
         movie_title_encoded = urllib.parse.quote(movie_title)
         url = f"http://www.omdbapi.com/?t={movie_title_encoded}&apikey={api_key}"
         response = requests.get(url)
