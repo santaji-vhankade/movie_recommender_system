@@ -1,6 +1,6 @@
 # 🎬 Movie Recommender System
 
-![Demo](demo.gif)
+<img src="demo.gif" alt="Demo" width="100%" />
 
 An intelligent movie recommendation system built using **Machine Learning** and deployed with **Streamlit**.  
 Given a movie title, it suggests 5 similar movies using content-based filtering.
