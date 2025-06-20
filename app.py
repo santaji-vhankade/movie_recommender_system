@@ -3,12 +3,14 @@ import pickle
 import requests
 import urllib.parse
 import os
+import gzip
 
 # -------------------------------
 # Load preprocessed data
 # -------------------------------
 movies = pickle.load(open('movies.pkl', 'rb'))
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+with gzip.open('similarity.pkl.gz', 'rb') as f:
+    similarity = pickle.load(f)
 
 # -------------------------------
 # Page configuration
