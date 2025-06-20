@@ -2,17 +2,19 @@
 
 ![Demo](demo.gif)
 
-An intelligent movie recommendation system built using **Machine Learning** and deployed with **Streamlit**. This project suggests similar movies based on a selected title using a content-based filtering approach.
+An intelligent movie recommendation engine built using **machine learning** and deployed with **Streamlit** on **Render**. It suggests similar movies based on a selected title using a **content-based filtering** approach.
 
 ---
 
 ## 🚀 Features
 
-- 🔍 Movie similarity search
-- 🧠 Machine learning model for content-based recommendations
-- 🎥 Movie poster and metadata fetched using OMDb API
-- 💡 User-friendly web interface with Streamlit
-- 🖱️ Clickable posters redirecting to IMDb
+- 🔎 **Search for similar movies** by title  
+- 🧠 **Content-based filtering** using NLP and cosine similarity  
+- 🎥 **Movie posters & metadata** fetched live via OMDb API  
+- 💻 **Interactive web UI** built with Streamlit  
+- ☁️ **Deployed on Render** with a public link  
+- 🔗 Poster images link to IMDb  
+
 
 ---
 
@@ -21,10 +23,10 @@ An intelligent movie recommendation system built using **Machine Learning** and 
 ```plaintext
 movie_recommender_system/
 │
-├── app.py                  # Streamlit app
-├── model_trainer.py        # Script to preprocess data and train similarity model
-├── movies.pkl              # Pickle file containing movie data
-├── similarity.pkl          # Pickle file containing similarity matrix
-├── similarity.pkl.gz       # Compressed version of similarity matrix
-├── requirements.txt        # Project dependencies
-└── demo.gif                # App demo (optional, remove if corrupted)
+├── app.py                  # Streamlit frontend
+├── model_trainer.py        # Data preprocessing & similarity model builder
+├── movies.pkl              # Pickled movie metadata
+├── similarity.pkl.gz       # Compressed similarity matrix
+├── requirements.txt        # Required Python packages
+├── demo.gif                # Demo preview
+└── README.md
