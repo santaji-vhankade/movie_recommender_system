@@ -6,19 +6,19 @@ An intelligent movie recommendation engine built using **machine learning** and 
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔎 **Search for similar movies** by title  
-- 🧠 **Content-based filtering** using NLP and cosine similarity  
-- 🎥 **Movie posters & metadata** fetched live via OMDb API  
-- 💻 **Interactive web UI** built with Streamlit  
-- ☁️ **Deployed on Render** with a public link  
-- 🔗 Poster images link to IMDb  
+-  **Search for similar movies** by title  
+-  **Content-based filtering** using NLP and cosine similarity  
+-  **Movie posters & metadata** fetched live via OMDb API  
+-  **Interactive web UI** built with Streamlit  
+-  **Deployed on Render** with a public link  
+-  Poster images link to IMDb  
 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```plaintext
 movie_recommender_system/
